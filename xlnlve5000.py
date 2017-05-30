@@ -67,7 +67,7 @@ if __name__ == "__main__":
                 capture = None
             else:
                 ret, img = capture.read()
-                cv2.imshow('xlvidedit500', img)
+                cv2.imshow('xlnlve5000', img)
                 if cv2.waitKey(int(1000.0 / fps)) & 0xFF == ord('q'):
                     break
     if capture is not None:
